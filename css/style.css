@@ -1,0 +1,51 @@
+@media screen and (max-width:750px) {
+div.main{width: 100% !important;}
+}
+
+.box{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+.man i{
+    font-size: 20px;
+    color: white;
+    background-color: green;
+    padding: 10px 12px;
+    border-radius: 50px;
+    /* margin-left: 20px; */
+}
+.input{
+    border: none;
+    outline: none;
+    background-color: #f2f5f4;
+}
+ul li {
+    list-style-type: none;
+    
+}
+.list {
+    display: flex;
+    gap: 50px;
+    font-size: 10px;
+
+}
+.time{
+    font-size: 15px;
+
+}
+.open{
+    font-size: 12px;
+}
+.position{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    border-radius: 5px;
+    height: 30px;
+    font-size: 15px;
+    width: 100px;
+}
+.relate{
+    position: relative;
+}
